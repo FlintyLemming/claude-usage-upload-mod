@@ -1,0 +1,5 @@
+{
+  "name": "flintylemming",
+  "owner": { "name": "FlintyLemming" },
+  "plugins": [{ "name": "sub-usage-push", "source": "./" }]
+}

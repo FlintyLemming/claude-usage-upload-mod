@@ -1,0 +1,25 @@
+{
+  "name": "sub-usage-push",
+  "version": "0.1.0",
+  "description": "Pushes the Claude subscription's 5-hour and 7-day rate-limit usage to an ai-plan-insight dashboard.",
+  "userConfig": {
+    "endpoint": {
+      "type": "string",
+      "title": "Dashboard URL",
+      "description": "Base URL of the ai-plan-insight dashboard, e.g. https://dashboard.example.com.",
+      "default": ""
+    },
+    "instanceId": {
+      "type": "string",
+      "title": "Instance ID",
+      "description": "The push instance's ID on the dashboard (type claude, mode push).",
+      "default": "claude"
+    },
+    "token": {
+      "type": "string",
+      "title": "Push token",
+      "description": "The dashboard's push_auth_secret, sent as a Bearer token.",
+      "default": ""
+    }
+  }
+}
